@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 4</title>
+  <style>
+  .uber{
+    background: #000;
+    color: white; 
+    padding: 1%;
+    cursor: pointer;
+  }
+.uber:hover{
+  opacity: 0.8; /* Warna tombol saat diklik */
+}
+  .amzn{
+    background-color: rgb(255, 216, 20); 
+    border-color: rgb(255, 216, 20); 
+    border-radius: 20px; 
+    padding: 1%; 
+    width: 20%;
+    cursor: pointer;
+  }
+  .amzn:hover{
+    background-color:rgb(230, 202, 63);
+  }
+  .gh{
+    background-color: rgb(46, 164, 79); 
+    color: white;
+    font-weight: 600; 
+    border-color:rgb(46, 164, 79) ; 
+    padding: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .gh:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+
+  .gs{
+    background-color: rgb(121, 82, 179); 
+    border-color:rgb(121, 82, 179); 
+    color: white;
+    font-weight: 600; 
+    padding: 1%; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .gs:hover{
+    background-color: rgb(92, 49, 158);
+  }
+  .dwnld{
+    background-color:white ; 
+    color: rgb(108,117,125);
+    font-weight: 600; 
+    padding: 1%; 
+    border-radius: 5px;
+    border: 0,5; 
+    border-color: rgb(108,117,125);
+    cursor: pointer;
+  }
+  .dwnld:hover{
+    background-color:rgb(108,117,125);
+    color: white;
+  }
+  .aocw{
+    background-color:rgb(10, 102, 194); 
+    border: none;
+    font-weight: 600;  
+    color: white; 
+    border-radius: 20px; 
+    padding: 1%;
+    cursor: pointer;
+  }
+  .aocw:hover{
+    background-color: darkblue;
+    border-color: darkblue;
+  }
+  .save{
+    background-color: white; 
+    border-color: rgb(10, 102, 194); 
+    color: rgb(10, 102, 194);
+    font-weight: 600; 
+    padding: 1%; 
+    border-radius: 20px; 
+    width: 7%;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  .save:hover{
+    border-width: 3px;
+    background-color: lightblue;
+    transition: all;
+  }
+  .subs{
+    color: white;
+    background-color: rgb(196,48,43);
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+  }
+  .subs:hover{
+    background-color:rgb(131, 25, 21);
+  }
+  .tweet{
+    color: white;
+    background-color: rgb(0, 172, 238);
+    border-color: rgb(0, 172, 238);
+    padding: 1%; 
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .tweet:hover{
+    opacity: 0.8;
+  }
+  .stretch{
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 1%;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .stretch:hover{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    transition: 0.5s;
+  }
+  .shadow{
+    background-color: green;
+    color: white;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    transform: translateX(-2px) translateY(-4px);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  .shadow:active{
+    transform: translateX(0) translateY(0);
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  }
+  .one, .two, .three{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 20px;
+    margin-inline: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .one:hover, .two:hover, .three:hover{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-inline: 10px;
+    transition: 0.2s;
+  }
+  .back{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .next{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+</style>
+</head>
+<body>
+  <p>4a-4e</p>
+  <b><p>lesson 4a</p></b>
+  <button id="uber" class="uber">Request now</button>
+
+  <b><p>lesson 4b</p></b>
+  <button id="amzn" class="amzn">Add to Cart</button>
+
+  <b><p>lesson 4c</p></b>
+  <button id="gh" class="gh">Sign up</button>
+
+  <b><p>lesson 4d</p></b>
+  <button id="gs" class="gs">Get started</button> <button 
+  id="dwnld" class="dwnld">Download</button>
+
+  <b><p>lesson 4e</p></b>
+  <button id="aocw" class="aocw">Apply on company website</button> <button id="save" class="save">Save</button>
+
+  <b><p>lesson 4f</p></b>
+  <button class="tweet">Tweet</button>
+
+  <b><p>lesson 4g</p></b>
+  <button class="subs">Subscribe</button>
+
+  <b><p>lesson 4h</p></b>
+  <button class="back">Back</button>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <button class="next">Next</button>
+
+  <b><p>lesson 4i</p></b>
+  <button class="stretch">Stretch</button>
+
+  <b><p>lesson 4j</p></b>
+  <button class="shadow">Shadow</button>
+
+  <b><p>lesson 4k</p></b>
+  <button class="one">One</button>
+  <button class="two">Two</button>
+  <button class="three">Three</button>
+
+</body>
+</html>

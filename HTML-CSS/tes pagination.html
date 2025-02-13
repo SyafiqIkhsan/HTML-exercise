@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .pagination .back, .pagination .next {
+    font-size: 16px;
+  }
+  
+  .pagination .page-number {
+    font-size: 14px;
+  }
+  
+  .pagination .page-number.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .pagination a:disabled {
+    color: #aaa;
+    border-color: #ddd;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+  <div class="pagination">
+    <a href="#" class="back">Back</a>
+    <a href="#" class="page-number">1</a>
+    <a href="#" class="page-number">2</a>
+    <a href="#" class="page-number">3</a>
+    <a href="#" class="next">Next</a>
+  </div>
+</body>
+</html>
