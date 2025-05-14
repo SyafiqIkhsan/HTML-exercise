@@ -1,0 +1,27 @@
+[
+  {
+    "nama" : "Budi",
+    "jk" : "Laki-laki",
+    "alamat" : "Cianjur"
+  },
+  {
+    "nama" : "Galang",
+    "jk" : "Laki-laki",
+    "alamat" : "Gang Ikhlas"
+  },
+  {
+    "nama" : "Cahyo",
+    "jk" : "Laki-laki",
+    "alamat" : "Gg Harapan"
+  },
+  {
+    "nama" : "Jenna Ortega",
+    "jk" : "Perempuan",
+    "alamat" : "Cibaduyut"
+  },
+  {
+    "nama" : "Emma Wattson",
+    "jk" : "Perempuan",
+    "alamat" : "Lenteng Agung"
+  }
+]
