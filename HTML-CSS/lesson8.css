@@ -1,0 +1,45 @@
+.txtbox, .name, .email{
+  color: grey;
+  width: 45%;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.containerb{
+  text-align: left;
+}
+
+.textb{
+  display: inline-block; 
+  width: 200px;          
+  margin: 10px;          
+  padding: 10px;
+  font-size: 18px;
+  vertical-align: middle; 
+}
+.button{
+  display: inline-block;
+  width: 200px;      
+  vertical-align: middle; 
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.containerc{
+  align-items: center;
+}
+
+.ggl{
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0 1px 2px grey;
+  padding-right: 200px;
+  text-align: left;
+}
+
+.lg{
+  width: 25%;
+  margin-left: 95px;
+}

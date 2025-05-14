@@ -1,0 +1,19 @@
+#satu{
+  background: #ddd;
+  margin: 2px;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+}
+#dua{
+  background-color: rgba(100, 100,100,0.8);
+  margin-top: 30px;
+}
+b{
+  background: red;
+  display: inline-block;
+  width: 200px;
+}
+input[type=text]{
+  display: block;
+}

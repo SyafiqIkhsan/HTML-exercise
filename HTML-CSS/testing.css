@@ -1,0 +1,15 @@
+.container {
+  display: flex; /* Menggunakan Flexbox */
+  justify-content: flex-start; /* Secara default, flex start */
+}
+
+.item {
+  padding: 10px;
+  background-color: lightblue;
+}
+
+.last {
+  margin-left: auto; /* Memposisikan elemen terakhir di ujung kanan */
+  padding: 10px;
+  background-color: lightgreen;
+}
